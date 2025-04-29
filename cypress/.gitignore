@@ -1,0 +1,36 @@
+# Cypress
+/cypress/downloads/
+/cypress/videos/
+/cypress/fixtures/example.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Entorno de desarrollo
+.env
+.env.local
+.env*.local
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Sistema operativo
+Thumbs.db
+
+# OpenCart (si incluyes el core)
+/upload/system/storage/
+/upload/image/cache/
+/upload/vendor/
+/composer.lock
+/upload/config.php
+/upload/admin/config.php
